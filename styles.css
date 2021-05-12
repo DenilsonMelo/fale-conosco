@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(45deg, #FF9966, #FF7040);
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-container{
+    height: 80vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background: #F5F6FA;
+
+    max-width: 40vw;
+    min-height: 60vh;
+    border-radius: 12px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+
+    margin: 4rem auto;
+}
+
+.form-container h1{
+    padding-bottom: 2rem;
+}
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.input-field input{
+    height: 2rem;
+    width: 22rem;
+
+    margin-bottom: 8px;
+    padding: 4px;
+
+    border-radius: 4px;
+    border: 1px solid;
+}
+
+.input-field textarea{
+    margin-bottom: 8px;
+    padding: 4px;
+
+    border-radius: 4px;
+    border: 1px solid;
+}
+
+button{
+    height: 2rem;
+    width: 100%;
+
+    margin-top: 1rem;
+
+    background: #FF5E62;;
+    color: #FFF;
+
+    cursor: pointer;
+
+    border-radius: 8px;
+    border: none;
+
+    transition: all .2s;
+}
+
+button:hover{
+    background: #FF9966;
+}
+
+/* MEDIA QUERYS */
+
+@media (max-width: 960px){
+    .input-field input, textarea{
+        width: 16rem;
+    }
+}
+
+@media (max-width: 720px){
+    .form-container{
+        max-width: 70vw;
+    }
+    
+    .input-field input, textarea{
+      
+    }
+
+    h1{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 400px){
+    .form-container{
+        max-width: 95vw;
+    }
+}

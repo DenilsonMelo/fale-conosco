@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Fale Conosco</title>
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="form-container">
+        <h1>Fale Conosco</h1>
+
+        <!-- É NECESSÁRIO TER CONTA NO FORMSPREE E MUDAR O ENDPOINT -->
+        <form action="https://formspree.io/f/mrgrppzk" method="POST"> 
+            
+            <div class="input-field">
+                <label for="nome">Nome</label>
+                <input name="name" type="text">
+            </div>
+            
+            <div class="input-field">
+                <label for="email">Email</label>
+                <input type="email" name="_replyto">
+            </div>
+            
+            <div class="input-field">
+                <label for="assunto">Assunto</label>
+                <input name="subject" type="text">
+            </div>
+            
+            <div class="input-field">
+                <label for="mensagem">Mensagem</label>
+                <textarea name="message" rows="5" cols="32"></textarea>
+            </div>
+
+            <button type="submit">Enviar</button>
+          </form>
+    </div>
+</body>
+</html>
