@@ -10,7 +10,7 @@ Formulário simples e responsivo com o envio de e-mail atráves do [FormsPree](h
 
 
 ### Resultado inicial
-<img src="assets/final.png" alt="Web Version"/>
+<img src="assets/final.PNG" alt="Web Version"/>
 <br><br>
 
 ## 🚀 Iniciando
